@@ -16,7 +16,7 @@ const Home = () => {
     const formData = new FormData();
     formData.append("profileImg", profileImg);
     axios
-      .post("http://localhost:4000/api/user-profile", formData, {})
+      .post(`https://react-web-api.onrender.com/api/user-profile`, formData, {})
       .then((res) => {
         setData(res.data.userCreated.profileImg);
       });
@@ -31,7 +31,7 @@ const Home = () => {
         </form>
       </div>
       <CanvasMap />
-      <BabylonModel data={data}/>
+      <BabylonModel data={data} />
     </>
   );
 };
