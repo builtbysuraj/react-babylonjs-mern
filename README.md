@@ -16,7 +16,7 @@ git clone https://github.com/builtbysuraj/react-babylonjs-mern.git
 ```
 cd react-babylonjs-mern
 ```
-### For running only client and use the application 
+### For running only client and use the application (make sure to create a ".env" file and store your Mapbox access token)
 ```
 cd client && npm i
 ```
