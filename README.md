@@ -8,9 +8,6 @@
 - upload that image and click on `upload`
 - done
 
-## Api
-[Api of the backend](https://react-web-api.onrender.com/api/)
-
 ## Clone this repo
 ```
 git clone https://github.com/builtbysuraj/react-babylonjs-mern.git
