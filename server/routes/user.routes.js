@@ -31,7 +31,7 @@ var upload = multer({
 let User = require('../models/User');
 
 router.post('/user-profile', upload.single('profileImg'), (req, res, next) => {
-  const url = req.protocol + '://' + req.get('host')
+  const url = 'https://' + req.get('host')
   const user = new User({
     _id: new mongoose.Types.ObjectId(),
     name: req.body.name,
